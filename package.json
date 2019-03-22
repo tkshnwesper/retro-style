@@ -1,0 +1,19 @@
+{
+  "name": "retro-style",
+  "version": "1.0.0",
+  "description": "Retrospective board",
+  "main": "index.js",
+  "scripts": {
+    "start": "elm-live -p 9999 -o -- ./src/Main.elm --output index.html --optimize",
+    "build": "elm make ./src/Main.elm --output index.html --optimize"
+  },
+  "author": "Saurabh M. Machave",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "elm": "^0.19.0-bugfix6",
+    "elm-live": "^3.4.0"
+  },
+  "devDependencies": {
+    "elm-test": "^0.19.0-rev6"
+  }
+}
