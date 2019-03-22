@@ -8,7 +8,7 @@
     "build": "elm make ./src/Main.elm --output index.html --optimize"
   },
   "author": "Saurabh M. Machave",
-  "license": "Apache 2.0",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "elm": "^0.19.0-bugfix6",
     "elm-live": "^3.4.0"
