@@ -2,18 +2,14 @@
   "name": "retro-style",
   "version": "1.0.0",
   "description": "Retrospective board",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {},
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "concurrently": "^4.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"pulp --watch build --to ./output/app.js\" \"parcel index.html\""
+    "start": "concurrently \"pulp --watch build --to ./output/app.js\" \"parcel index.html\"",
+    "build": "pulp build --to ./output/app.js && parcel build index.html"
   },
   "repository": {
     "type": "git",
